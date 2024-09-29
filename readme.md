@@ -78,4 +78,6 @@ Este proyecto sigue una arquitectura cliente-servidor. En esta arquitectura:
 5. Abre tu navegador y visita `http://127.0.0.1:8000` para ver la aplicación en funcionamiento.
 
 ### Video demostrativo 
- https://drive.google.com/file/d/1gpKiqWeQP07nt4bhDvS1E62LobqTl75T/view?usp=sharing
+
+[Ver Video de Gestión de Tareas](https://drive.google.com/file/d/1gpKiqWeQP07nt4bhDvS1E62LobqTl75T/view?usp=sharing)
+
