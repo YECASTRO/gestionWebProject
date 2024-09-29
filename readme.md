@@ -63,7 +63,7 @@ Este proyecto sigue una arquitectura cliente-servidor. En esta arquitectura:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/YECASTRO/gestionWebProject.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
@@ -82,3 +82,6 @@ Este proyecto sigue una arquitectura cliente-servidor. En esta arquitectura:
    ```
 5. Abre tu navegador y visita `http://127.0.0.1:8000` para ver la aplicación en funcionamiento.
 
+### Video tutorial 
+ 
+ https://drive.google.com/file/d/1gpKiqWeQP07nt4bhDvS1E62LobqTl75T/view?usp=sharing
