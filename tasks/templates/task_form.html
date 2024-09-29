@@ -1,0 +1,24 @@
+
+
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h1>Registrar Tarea</h1>
+    <form method="post" class="row">
+        {% csrf_token %}
+
+        <div class=" col-4 form-group">
+            <label for="id_titulo">Título</label>
+            {{ form.titulo }}
+        </div>
+        <div class="col-4 form-group">
+            <label for="id_detalles">Detalles</label>
+            {{ form.detalles}}
+        </div>
+        <div class="col-4 form-group">
+            <label for="id_estado">Estado</label>
+            {{ form.estado}}
+        </div>
+        <button type="submit" class="btn btn-success">Registrar tarea</button>
+    </form>
+{% endblock %}
