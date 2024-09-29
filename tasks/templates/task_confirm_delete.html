@@ -1,14 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Confirm Delete</title>
-</head>
-<body>
-    <h1>Are you sure you want to delete "{{ task.title }}"?</h1>
-    <form method="post">
-        {% csrf_token %}
-        <button type="submit">Yes, delete</button>
-    </form>
-    <a href="{% url 'task_list' %}">Cancel</a>
-</body>
-</html>
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<div class="card" style="width: 18rem;">
+    <img src="https://cdn-icons-gif.flaticon.com/8948/8948338.gif" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{ task.titulo }}</h5>
+        <p class="card-text">Estas seguro que deseas eliminar la tarea</p>
+    </div>
+
+    <div class="card-body">
+        <form method="post">
+            {% csrf_token %}
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+
+                <div class="btn-group me-2" role="group">
+                    <button type="submit" class="button-danger">Sí, eliminar</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <a href="{% url 'task_list' %}" type="button" class=" button-info">Cancelar</a>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+{% endblock %}

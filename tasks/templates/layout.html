@@ -15,13 +15,13 @@
     <nav class="navbar fixed-top " style="background-color: #e3f2fd;">
         <div class="container-fluid">
            <div></div>
-            <a class=" h1">Gestion de tareas</a>
+            <a class=" h1">Gestión de tareas</a>
                 <a type="button" href="{% url 'task_create' %}" class="button-info" >Crear Tareas</a>
         </div>
     </nav>
 
     <div class="container-fluid">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center " style="padding-top: 100px ;">
             {% block content %}
         <!-- Contenido específico de cada página -->
         {% endblock %}

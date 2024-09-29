@@ -1,24 +1,25 @@
-
-
 {% extends 'layout.html' %}
 
 {% block content %}
-    <h1>Registrar Tarea</h1>
-    <form method="post" class="row">
+   
+
+    <form method="post" class="row needs-validation">
         {% csrf_token %}
 
-        <div class=" col-4 form-group">
+        <div class=" col-12 form-group">
             <label for="id_titulo">Título</label>
             {{ form.titulo }}
         </div>
-        <div class="col-4 form-group">
+        <div class="col-12 form-group">
             <label for="id_detalles">Detalles</label>
             {{ form.detalles}}
         </div>
-        <div class="col-4 form-group">
-            <label for="id_estado">Estado</label>
+        <div class="col-12 form-group">
+            <label for="id_detalles">Estado</label>
             {{ form.estado}}
         </div>
-        <button type="submit" class="btn btn-success">Registrar tarea</button>
+      
+    
+        <button type="submit" class="btn btn-success">Guardar</button>
     </form>
 {% endblock %}

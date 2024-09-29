@@ -4,7 +4,7 @@
 
 
 ```markdown
-# Proyecto To-Do List
+# Proyecto GestionWeb
 
 Este proyecto es una aplicación de lista de tareas desarrollada con Python y Django. Permite a los usuarios gestionar sus tareas diarias de manera eficiente.
 ```
