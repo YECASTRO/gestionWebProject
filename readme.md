@@ -3,15 +3,15 @@
 ### 1. Introducción
 
 
-```markdown
+
 # Proyecto GestionWeb
 
 Este proyecto es una aplicación de lista de tareas desarrollada con Python y Django. Permite a los usuarios gestionar sus tareas diarias de manera eficiente.
-```
+
 
 ### 2. Arquitectura Cliente-Servidor
 
-```markdown
+
 ## Arquitectura Cliente-Servidor
 
 Este proyecto sigue una arquitectura cliente-servidor. En esta arquitectura:
@@ -21,15 +21,12 @@ Este proyecto sigue una arquitectura cliente-servidor. En esta arquitectura:
 
 ### Diagrama de Arquitectura
 
-```
 [Cliente (Navegador Web)] <----> [Servidor (Django)]
-```
-```
 
 ### 3. Estructura de Archivos
 
 
-```markdown
+
 ## Estructura de Archivos
 
 - `manage.py`: Script de utilidad para interactuar con el proyecto Django.
@@ -43,19 +40,17 @@ Este proyecto sigue una arquitectura cliente-servidor. En esta arquitectura:
   - `urls.py`: Rutas URL específicas de la aplicación.
   - `templates/`: Plantillas HTML para las vistas.
   - `static/`: Archivos estáticos como CSS y JavaScript.
-```
 
 ### 4. Funcionalidades
 
 
-```markdown
+
 ## Funcionalidades
 
 - **Crear Tareas**: Los usuarios pueden crear nuevas tareas.
 - **Listar Tareas**: Los usuarios pueden ver una lista de todas las tareas.
 - **Actualizar Tareas**: Los usuarios pueden editar las tareas existentes.
 - **Eliminar Tareas**: Los usuarios pueden eliminar tareas que ya no son necesarias.
-```
 
 ### 5. Instalación y Ejecución
 
@@ -82,6 +77,5 @@ Este proyecto sigue una arquitectura cliente-servidor. En esta arquitectura:
    ```
 5. Abre tu navegador y visita `http://127.0.0.1:8000` para ver la aplicación en funcionamiento.
 
-### Video tutorial 
- 
+### Video demostrativo 
  https://drive.google.com/file/d/1gpKiqWeQP07nt4bhDvS1E62LobqTl75T/view?usp=sharing
